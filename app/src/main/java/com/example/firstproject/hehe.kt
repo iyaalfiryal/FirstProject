@@ -3,15 +3,17 @@ package com.example.firstproject
 fun main() {
     val age = 19
     val layers = 5
-    wishes(layers)
     cakeCandles(age)
     cakeTop(age)
     cakeBottom(age, layers)
+
+    wishes(layers)
+
 }
 
 fun wishes(layers: Int){
     repeat(layers){
-        print("ITS YOUR DAYY, THANKYOU FOR KEEP SURVIVING, I LOVE U")
+        println("ITS YOUR DAYY, THANKYOU FOR KEEP SURVIVING, I LOVE U")
     }
     println()
 }
@@ -44,4 +46,6 @@ fun cakeBottom(age: Int, layers: Int) {
         }
         println()
     }
+
+    println("\n")
 }
